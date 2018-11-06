@@ -1,17 +1,17 @@
 ## 安裝
-### react
+#### react
 ```sh
 npx create-react-app my-app
 cd my-app
 npm start
 ```
-### react-router
+#### react-router
 ```sh
 npm install --save react-router react-router-dom
 ```
 
 ## Basic
-### src/index.js
+#### src/index.js
 ```javascript
 import { BrowserRouter } from "react-router-dom";
 ReactDOM.render(
@@ -20,7 +20,7 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById('root'));
 ```
-### src/app.js
+#### src/app.js
 ```javascript
 import { Route, Link } from "react-router-dom";
 
